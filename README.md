@@ -42,3 +42,15 @@ The data was plotted using the first two principal components (if PCA was used),
 
 **Evaluation**
 Silhouette Score was used to evaluate how well-separated the clusters are. A higher score indicates better clustering performance.
+
+# Result
+The K-Means clustering model successfully segmented the customers into 5 distinct groups based on their age, income, and spending behavior. Visualizations using PCA showed clear boundaries between clusters, and the silhouette score confirmed good clustering performance. These insights can help in creating targeted marketing campaigns.
+
+# Future Insights
+This project can be extended by integrating demographic or transactional data for more accurate segmentation. It can also be deployed as a web dashboard where businesses upload their customer data and get instant cluster analysis. Adding advanced clustering techniques like DBSCAN or hierarchical clustering can further enhance the model’s capability.
+
+High income, high spenders
+
+Low income, low spenders
+
+Young average spenders, etc.
